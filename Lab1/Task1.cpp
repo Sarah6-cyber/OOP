@@ -15,7 +15,6 @@ int main(){
             highest=*(array+i);
         }
     }
-    cout<<"the highest num is "<<highest<<endl;
     cout<<"the second highest num is "<<sec_highest<<endl;
     return 0;
 }
