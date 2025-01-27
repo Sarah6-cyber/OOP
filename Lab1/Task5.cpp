@@ -25,7 +25,7 @@ int main(){
     donated_amt=(donation_percent/100)*gross_amt;
     net_sale=(gross_amt)-(donated_amt);
 
-    cout<<"+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-"<<endl;
+    cout<<"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-"<<endl;
     cout<<"Movie Name:";
     cout<<right<<setw(28)<<movie<<endl;
     cout<<"Number of tickets sold: ";
