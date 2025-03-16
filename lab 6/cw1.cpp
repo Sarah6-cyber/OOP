@@ -22,6 +22,7 @@ class BankAccount{
     }
     void withdraw(double amt){
         if (amt<=balance){
+            balance-=amt;
             cout<<amt<<" withdrawn successfully"<<endl;
         }
         else {
